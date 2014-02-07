@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="utenti.xsl"?>
+<utenti xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="utenti.xsd">
+    <utente>
+        <nome>Bogdan</nome>
+        <username>admin</username>
+        <email>bogdann@hotmail.it</email>
+        <password>admin</password>
+        <tipo>admin</tipo>
+    </utente>
+    <utente>
+        <nome>Simone</nome>
+        <username>scampagn</username>
+        <email>fransim@hotmail.it</email>
+        <password>scampagn</password>
+        <tipo>user</tipo>
+    </utente>
+</utenti>
