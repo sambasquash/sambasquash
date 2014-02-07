@@ -4,10 +4,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
 	<title>SambaSquash Palestra-HomePage</title>
-	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css" media="screen and (min-width:1024px)">
+	<link rel="stylesheet" type="text/css" href="./css/index.css" media="screen and (min-width:500) and (max-width : 800px)">
+	<link rel="stylesheet" type="text/css" href="./css/index.css" media="screen and (min-width:150px) and (max-width : 700px)">
+	<link rel="stylesheet" type="text/css" href="./css/index.css" media="print">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="title" content="SambaSquash Palestra-Home Page">
-	<meta name="keywords" content="Squash,lezioni, palestra, padova, tornei squash, maestri">
+	<meta name="keywords" content="Squash, lezioni, palestra, padova, tornei squash, maestri">
 	<meta name="description" content="Lezioni di squash a Padova">
 	<meta name="author" content="Samba web design">
 	<meta name="language" content="italian it">
@@ -17,40 +20,44 @@
 <!-- ===============Body=========== -->
 <!-- ===============Header=========== -->
 <div id="header">
-	<h1>SambaSquash</h1>
-	<img src="./foto/palla.jpg" alt=racchetta di squash e palla di squash height="112" width="112">
-	<h2>Home Page</h2>
+	<h1>Samba <xml:lang="en">Squash</h1>
+	<div id="logo"></div>
+	<div id="breadcumbs"><h2>Home Page</h2></div>
 </div>
-<!-- ============Menu============= -->
-		<div id="nav">
-			<ul>
-				<li class="selected"> <a href="index.html" tabindex="1" accesskey="2"> Home </a> </li>
-				<li> <a href="noi.html" tabindex="2" accesskey="3"> Chi siamo </a> </li>
-				<li> <a href="news.html" tabindex="3" accesskey="4"> News ed Eventi </a> </li>
-				<li> <a href="contattaci.html" tabindex="4" accesskey="5"> Contattaci </a> </li>
-				<li> <a href="gioco.html" tabindex="5" accesskey="6"> Gioco </a> </li>
-			</ul> 
-		</div>
-<!-- =================Corpo================ -->
+	<div id="nav">
+		<ul>
+			<li class="selected"><a href="index.html" tabindex="1" accesskey="2"> HOME</a> </li>
+			<li><a href="noi.html" tabindex="2" accesskey="3">CHI SIAMO</a></li>
+			<li><a href="news.html" tabindex="3" accesskey="4">NEWS <abbr title=ed>&</abbr> Eventi</a> </li>
+			<li><a href="contattaci.html" tabindex="4" accesskey="5">CONTATTACI</a></li>
+			<li><a href="gioco.html" tabindex="5" accesskey="6">GIOCO</a></li>
+		</ul> 
+	</div>
+
+
+
+<div id="intro">
+	<p>Tutto ciò che c'è da sapere sullo sport dello Squash ed iniziare sin da subito a praticarlo affiancato dai piu' bravi maestri d'Italia</p>
+</div>
 <div id="content">
-
-		<p>Qui potrai trovare tutte le informazioni che desideri per cominciare questo bellissimo sport. <br>
-			I maestri piu bravi d'Italia sono a vostra disposizione.</p>
-			<p>Inoltre abbiamo anche informazioni sui vari tornei che organizziamo ogni mese.</p>
-			<p><cite>
-				Lo squash &egrave; un po come il vivere : non importa quanto piccolo sia il tuo orrizzonte : l'importante &egrave; che in quel poco che ti &egrave; stato dato tu sappia dare il meglio di te stesso spingendoti oltre i limiti sino a quell'istante da te imposti 
-			</cite></p>
-		<p><span id="autorecit"> S. C. Champ</span></p>
+	<div id="news" class="content"></div>
+	<div id="eventi" class="content"></div>
+	<div id="login" class="content"></div>
 
 </div>
-
-<!-- =======================FOOTER================ -->
+	<cite >
+		Lo squash &egrave; un po come il vivere : non importa quanto piccolo sia il tuo orrizzonte : l'importante &egrave; che in quel poco che ti &egrave; stato dato tu sappia dare il meglio di te stesso spingendoti oltre i limiti sino a quell'istante da te imposti 
+		S. C. Champ
+	</cite>
 
 <div id="footer">
-	<address>Venite a trovarci a Padova, in via Marzolo, 35, <abbr title="telefono">Tel.</abbr>0423 000555 </address>
-    <img src="./css.png"  alt="CSS Valid!"/>
-    <img src="./xhtml.png"  alt="XHTML Valid!"/>
+	<div id="contact" class="footer">
+		<address><p>Via Marzolo 35, Padova - 0423 000555</p><p>.</p></address>
+	</div>
+    <img class="footer" id="css" src="./media/css.png"  alt="CSS Valid!"/>
+    <img class="footer" id="xhtml" src="./media/xhtml.png"  alt="XHTML Valid!"/>
 </div>
+<div id="background"></div>
 </body>
 
 </html>
